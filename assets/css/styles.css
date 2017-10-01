@@ -1,0 +1,51 @@
+#heading-logo {
+  position:absolute;
+  top:55%;
+  left:74%;
+  max-height:100px;
+}
+
+img {
+  height:400px;
+}
+
+.col-md-3.col-sm-4.item {
+  margin-left:5%;
+}
+
+#team {
+  margin-top:5%;
+}
+
+#main-content heading img {
+  max-height:50px;
+}
+
+.lawyer-heading {
+  font-weight:bold;
+  width:20%;
+}
+
+#border {
+  height: 5px;
+  width: 145%;
+  margin-left: 5%;
+  background-color: purple;
+}
+
+#second-arrow {
+  height:100px;
+  width: 100px;
+  position: absolute;
+  top:150%;
+  left:12%;
+}
+
+#zespol-text {
+  -webkit-transform: rotate(-90deg);
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 125%;
+  left: 20%;
+}
