@@ -27,18 +27,33 @@ img {
 }
 
 #border {
-  height: 5px;
-  width: 165%;
+  height: 20px;
+  width: 145%;
   margin-left: 7.5%;
-  background-color: purple;
+}
+
+#border-2 {
+  width: 65%;
+  margin-left: 22.5%;
+  padding-top: 5%;
+  padding-bottom: 15%;
 }
 
 #second-arrow {
   height:100px;
   width: 100px;
   position: absolute;
-  top:150%;
+  top:200%;
   left:12%;
+}
+
+#third-arrow {
+  -webkit-transform: rotate(-180deg);
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 400%;
+  left: 12%;
 }
 
 #zespol-text {
@@ -50,6 +65,33 @@ img {
   left: 20%;
 }
 
+#zakres-heading p {
+  margin-left: 7.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+#zakres {
+  width: 70%;
+  padding-left: 5%;
+  margin-left: 18.5%;
+}
+
+#zakres h3 {
+  color: #cfb691;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: bold;
+}
+
+#zakres p {
+  font-family: 'Roboto', sans-serif;
+}
+
+#zakres-side-heading {
+  position: absolute;
+  top: 250%;
+  left: 13%;
+}
+/*
 #zakres {
   margin-left: 7.5%;
 }
@@ -77,4 +119,4 @@ img {
 #zakres-table tr td {
   padding: 5%;
 
-}
+}*/
