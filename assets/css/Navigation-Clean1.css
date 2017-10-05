@@ -38,11 +38,11 @@
 }
 
 .navigation-clean .navbar-brand img {
-  height:50px;
+  height:75px;
   display:inline-block;
   width:auto;
   position:absolute;
-  top:15px;
+  top: 0;
   left:200px;
 }
 
