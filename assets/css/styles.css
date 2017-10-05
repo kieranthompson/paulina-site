@@ -28,8 +28,8 @@ img {
 
 #border {
   height: 5px;
-  width: 145%;
-  margin-left: 5%;
+  width: 165%;
+  margin-left: 7.5%;
   background-color: purple;
 }
 
@@ -50,19 +50,31 @@ img {
   left: 20%;
 }
 
+#zakres {
+  margin-left: 7.5%;
+}
+
+#zakres h3 {
+  margin-right: 7.5%;
+}
+
+
 #zakres-text {
   color: #000000;
   width: 150%;
   font-family: 'Roboto:300', sans-serif;
-  padding-left: 7.5%;
 }
 
 #zakres-list {
-  padding-left: 7.5%;
-  width: 30%;
+  width: 180%;
 }
 
 #zakres-list p {
   font-family: 'Roboto:300', sans-serif;
   color: #000000;
+}
+
+#zakres-table tr td {
+  padding: 5%;
+
 }

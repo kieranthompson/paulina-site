@@ -1,5 +1,5 @@
 $(function() {
-  $('#kancelarii-link').click(function() {
+  $('#kancelarii-link, #first-arrow').click(function() {
     $('html, body').animate({
         scrollTop:$('#kancelarii').offset().top
     },
@@ -7,3 +7,13 @@ $(function() {
     )
   })
 })
+
+$(function() {
+  $('#zakres-link').click(function() {
+    $('html, body').animate({
+      scrollTop:$('#zakres').offset().top
+    },
+    'slow'
+    )
+    })
+  })
