@@ -65,7 +65,7 @@ img {
   height: 100px;
   width: 100px;
   position: absolute;
-  top: 470%;
+  top: 460%;
   left: 12%;
 }
 
@@ -192,7 +192,7 @@ img {
 .vertical-line {
   background-color: rgba(179, 179, 179, 0.20);
   width: 1px;
-  height: 480%;
+  height: 470%;
   position: absolute;
   top: 0;
   z-index: 0;
