@@ -1,14 +1,4 @@
-.navigation-clean {
-  font-size:20px;
-  background:#fff;
-  padding-top:10px;
-  padding-bottom:10px;
-  color:#333;
-  border-radius:0;
-  box-shadow:none;
-  border:none;
-  margin-bottom:0;
-}
+
 
 @media (max-width:767px) {
   .navigation-clean {
@@ -23,7 +13,6 @@
     padding-bottom:10px;
   }
 }
-
 .navigation-clean .navbar-brand {
   font-weight:bold;
   color:inherit;
@@ -178,16 +167,6 @@
   padding:10%;
 }
 
-#container {
-  /*margin-right:10%;*/
-}
-
-#container .jumbotron {
-  max-width:80%;
-  margin-bottom:50px;
-  margin:0 auto;
-}
-
 .navbar-default .navbar-nav > li > a:active {
   border-bottom:5px solid #6abcce;
 }
@@ -199,6 +178,7 @@
   height:100%;
   padding-left:10%;
   background-color:#f9f9fb;
+  margin-bottom: -10%;
 }
 
 .h1, h1 {
@@ -249,10 +229,11 @@ img {
 }
 
 #strona-block {
-  margin-left:30%;
+  margin-left:29%;
   height:400px;
-  width:800px;
+  width:850px;
   background-color:rgb(118,118,118);
+  z-index: 2;
 }
 
 #ok-content {
@@ -266,7 +247,7 @@ img {
   background-color:white;
   padding:1%;
   position:absolute;
-  top:30%;
+  top:25%;
   right:20%;
 }
 
@@ -294,15 +275,7 @@ body {
   position: absolute;
   top: 100%;
   left: 13%;
-}
-
-#first-arrow {
-  height:100px;
-  width:100px;
-  position:absolute;
-  top:50%;
-  left:12%;
-}
+} 
 
 .wiecej {
   text-align:right;
