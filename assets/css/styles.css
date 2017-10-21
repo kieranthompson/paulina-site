@@ -1,7 +1,71 @@
+#strona-block {
+  position: absolute;
+  top: 0;
+  left: 689px;
+  height:400px;
+  width:850px;
+  background-color:rgb(118,118,118);
+}
+
+#strona-text {
+  width:25%;
+  background-color:white;
+  padding:1%;
+  position:absolute;
+  top:25%;
+  right:20%;
+  z-index: 1;
+}
+
+#ok-content {
+  position: absolute;
+  top: 400px;
+  left: 465px;
+  margin-top:5%;
+  max-width:57%;
+}
+
+.vertical-line {
+  background-color: #eeeeee;
+  width: 2px;
+  height: 470%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+#first-line {
+  left: 12%;
+}
+
+#second-line {
+  left: 24.25%;
+}
+
+#third-line {
+  left: 36.1%;
+}
+
+#fourth-line {
+  left: 47%;
+}
+
+#fifth-line {
+  left: 57.5%;
+}
+
+#sixth-line {
+  left: 68%;
+}
+
+#seventh-line {
+  left: 80.7%;
+}
+
 #heading-logo {
   position:absolute;
-  top:48%;
-  left:74%;
+  top:-50px;
+  left:900px;
   max-height:100px;
 }
 
@@ -89,6 +153,11 @@ img {
 
 .team-text {
   width: 60%;
+  font-size: 14px;
+}
+
+#agnieska{
+  margin-left: 50%;
 }
 
 #zakres {
@@ -187,43 +256,6 @@ img {
   position: absolute;
   top: 440%;
   left: 24.3%;
-}
-
-.vertical-line {
-  background-color: rgba(179, 179, 179, 0.20);
-  width: 1px;
-  height: 470%;
-  position: absolute;
-  top: 0;
-  z-index: 0;
-}
-
-#first-line {
-  left: 12%;
-}
-
-#second-line {
-  left: 24.25%;
-}
-
-#third-line {
-  left: 36.1%;
-}
-
-#fourth-line {
-  left: 47%;
-}
-
-#fifth-line {
-  left: 57.5%;
-}
-
-#sixth-line {
-  left: 68%;
-}
-
-#seventh-line {
-  left: 80.7%;
 }
 
 #kontact-side-heading {

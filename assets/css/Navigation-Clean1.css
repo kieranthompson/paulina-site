@@ -228,31 +228,8 @@ img {
   margin-left:50px;
 }
 
-#strona-block {
-  margin-left:29%;
-  height:400px;
-  width:850px;
-  background-color:rgb(118,118,118);
-  z-index: 2;
-}
-
-#ok-content {
-  margin-top:5%;
-  max-width:60%;
-  margin-left:16%;
-}
-
-#strona-text {
-  width:25%;
-  background-color:white;
-  padding:1%;
-  position:absolute;
-  top:25%;
-  right:20%;
-}
-
 body {
-  background-color:#f9f9fb;
+  background-color:#f9f9f9;
 }
 
 #navbar {
@@ -275,7 +252,7 @@ body {
   position: absolute;
   top: 100%;
   left: 13%;
-} 
+}
 
 .wiecej {
   text-align:right;
