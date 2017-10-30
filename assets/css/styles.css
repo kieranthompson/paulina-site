@@ -1,3 +1,21 @@
+body {
+  background-image: url("/assets/img/bacground.png");
+}
+
+.vertical-line {
+  background-color: #eeeeee;
+  width: 2px;
+  height: 470%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Roboto-light', sans-serif;
+}
+
 #strona-block {
   position: absolute;
   top: 0;
@@ -12,9 +30,8 @@
   background-color:white;
   padding:1%;
   position:absolute;
-  top:25%;
+  top:20%;
   right:20%;
-  z-index: 1;
 }
 
 #ok-content {
@@ -23,15 +40,6 @@
   left: 465px;
   margin-top:5%;
   max-width:57%;
-}
-
-.vertical-line {
-  background-color: #eeeeee;
-  width: 2px;
-  height: 470%;
-  position: absolute;
-  top: 0;
-  z-index: 0;
 }
 
 #first-line {
@@ -106,8 +114,6 @@ img {
   padding-bottom: 15%;
 }
 
-
-
 #first-arrow {
   height:100px;
   width:100px;
@@ -160,19 +166,26 @@ img {
   margin-left: 50%;
 }
 
-#boz-more {
+.more {
   cursor: pointer;
+  color: #cfb691;
+  text-align: center;
 }
 
 #zakres {
   width: 70%;
   margin-left: 20%;
   font-family: 'Roboto', sans-serif;
+  z-index: 1;
 }
 
 #zakres .row {
   margin-left: 4%;
 
+}
+
+#zakres #zakres-heading p {
+  z-index: 1;
 }
 
 #zakres h3 {
@@ -198,6 +211,7 @@ img {
   text-align: left;
   margin-left: -.5%;
   width: 88%;
+  z-index: 1;
 }
 
 #zakres-heading h2 {

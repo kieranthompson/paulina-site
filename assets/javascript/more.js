@@ -1,7 +1,7 @@
 var isClicked;
 $("#boz-more").click(function(){
   isClicked = !isClicked;
-  if(isClicked == true) {
+  if(isClicked) {
     $("#boz-text").hide(200);
     $("#agnieska-row").hide(300);
     $("#magdalena-row").hide(300);
@@ -14,7 +14,7 @@ $("#boz-more").click(function(){
     $("#boz-text").css({'position': 'absolute', 'top': '0', 'left': '300px', 'min-width': '350px'});
   }
 
-  if(isClicked == false) {
+  if(!isClicked) {
     $("#agnieska-row").show(300);
     $("#magdalena-row").show(300);
     $("#boz-text").css({'position':'static', 'min-width': '0'});
@@ -26,4 +26,56 @@ $("#boz-more").click(function(){
   );
   }
     console.log(isClicked);
+  });
+
+  $("#ag-more").click(function() {
+    isClicked = !isClicked;
+    if(isClicked) {
+      $("#ag-text").hide();
+      $("#bozena-row").hide();
+      $("#magdalena-row").hide();
+      $("#agnieska-row").animate({left: '200px'});
+      $("#ag-more p").text("mniej-");
+      $("#ag-text").show(200);
+      $("#ag-text").text("Adw. Agnieszka Oskaldowicz – Leduchowska, jest absolwentką Wydziału Prawa na Uniwersytecie Łódzkim. Posiada wieloletnie doświadczenie zawodowe, jeszcze na studiach zdobywała doświadczenie w pracując w Kancelarii Notarialnej i Adwokackiej, gdzie wykonywała swoją pracę z dużym zaangażowaniem i pasją, co zaowocowało pozytywnym wynikiem podczas naboru na aplikację adwokacką, którą odbywała w Łódzkiej Izbie Adwokackiej pod patronatem Mecenas Bożeny Niecieckiej - Ostojskiej. Adw. Agnieszka Oskaldowicz – Leduchowska w pełni realizuje się w wykonywaniu swego zawodu, posiada doświadczenie w prowadzeniu negocjacji pozaprocesowych, co jest bardzo istotne szczególnie w prawie rodzinnym, w którym się specjalizuje. Na bieżąco poszerza swą wiedzę i podnosi swe kwalifikacje zawodowe, bierze udział w licznych szkoleniach i wykładach, obecnie jest słuchaczką Studiów Podyplomowych z zakresu Prawa Rodzinnego prowadzonych na Uniwersy tecie Łódzkim.");
+      $("#ag-text").removeClass("team-text row");
+      $("#ag-text").css({'position': 'absolute', 'top': '0', 'left': '300px', 'min-width': '350px'});
+    }
+
+    if(!isClicked) {
+      $("#bozena-row").show(300);
+      $("#magdalena-row").show(300);
+      $("#ag-text").css({'position':'static', 'min-width': '0'});
+      $("#agnieska-row").animate({left: '0px'});
+      $("#agnieska-row").addClass("col-sm-4");
+      $("#ag-text").addClass("team-text row");
+      $("#ag-more p").text("wiecej+")
+      $("#ag-text").text("Adw. Agnieszka Oskaldowicz – Leduchowska, jest absolwentką Wydziału Prawa na Uniwersytecie Łódzkim. Posiada wieloletnie doświadczenie zawodowe");
+    }
+  });
+
+  $("#mag-more").click(function() {
+    isClicked = !isClicked;
+    if(isClicked) {
+      $("#mag-text").hide();
+      $("#agnieska-row").hide();
+      $("#bozena-row").hide();
+      $("#magdalena-row").animate({left: '200px'});
+      $("#mag-more p").text("mniej-");
+      $("#mag-text").show(200);
+      $("#mag-text").text("Adw. Magdalena Niewiadomska-Wojcieszek ukończyła z wynikiem bardzo dobrym studia na kierunku prawo na Wydziale Prawa i Administracji Uniwersytetu Łódzkiego, Podczas studiów otrzymała dwukrotnie list gratulacyjny od Rektora UŁ za bardzo dobre wyniki w nauce. Podczas studiów podejmowała praktykę w łódzkich kancelariach. Aplikację adwokacką odbyła w Okręgowej Radzie Adwokackiej w Łodzi pod patronatem adw. Bożeny Niecieckiej – Ostojskiej. Okres aplikacji pozwolił jej na zdobycie cennego doświadczenia, co pozwala jej na prowadzenie z sukcesem indywidualnej praktyki adwokackiej. Adw. Magdalena Niewiadomska – Wojcieszek odbyła również studia doktoranckie będąc doktorantem w Katedrze Zbiorowego i Europejskiego Prawa Pracy. Od początku kariery zawodowej związana z prawem rodzinnym. Nieustannie poszerza swoją wiedzę uczestnicząc w licznych szkoleniach oraz odbywając studia podyplomowe.");
+      $("#mag-text").removeClass("team-text row");
+      $("#mag-text").css({'position': 'absolute', 'top': '0', 'left': '300px', 'min-width': '350px'});
+    }
+
+    if(!isClicked) {
+      $("#bozena-row").show(300);
+      $("#agnieska-row").show(300);
+      $("#mag-text").css({'position':'static', 'min-width': '0'});
+      $("#magdalena-row").animate({left: '0px'});
+      $("#magdalena-row").addClass("col-sm-4");
+      $("#mag-text").addClass("team-text row");
+      $("#mag-more p").text("wiecej+")
+      $("#mag-text").text("Adw. Magdalena Niewiadomska-Wojcieszek ukończyła z wynikiem bardzo dobrym studia na kierunku prawo na Wydziale Prawa i Administracji Uniwersytetu Łódzkiego");
+    }
   });
