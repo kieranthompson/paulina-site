@@ -31,7 +31,7 @@ $(function() {
   $(function() {
     $('#kontact-link, #second-arrow').click(function() {
       $('html, body').animate({
-        scrollTop:$('#map').offset().top
+        scrollTop:$('#map').offset().top + 50
       },
       'slow'
       )

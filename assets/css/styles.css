@@ -2,10 +2,13 @@ body {
   background-image: url("/assets/img/bacground.png");
 }
 
+br {
+  margin: -5px;
+}
 .vertical-line {
   background-color: #eeeeee;
   width: 2px;
-  height: 470%;
+  height: 550%;
   position: absolute;
   top: 0;
   z-index: 0;
@@ -135,7 +138,7 @@ img {
   height: 100px;
   width: 100px;
   position: absolute;
-  top: 460%;
+  top: 540%;
   left: 12%;
 }
 
@@ -159,7 +162,13 @@ img {
 
 .team-text {
   width: 60%;
+  font-size: 18px;
+}
+
+.tel-email {
+  color: #6abcce;
   font-size: 14px;
+  margin-left: -10px;
 }
 
 #agnieska{
@@ -195,6 +204,7 @@ img {
 
 #zakres .first-row {
   width: 250px;
+  margin-left: 2px;
 }
 
 #zakres .middle-row {
@@ -257,9 +267,9 @@ img {
   background-color: #f9f9fb;
   padding-left: 15px;
   position: absolute;
-  top: 420%;
+  top: 470%;
   left: 24.3%;
-  width: 40%;
+  min-width: 950px;
   height: 25%;
 }
 
@@ -267,6 +277,31 @@ img {
   font-family: 'Cormorant Garamont', serif;
   font-weight: bold;
   font-size: 42px;
+}
+
+#kontact-team {
+  max-width: 950px;
+  background: white;
+  position: absolute;
+  top: 490%;
+  left: 463px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+
+#kontact-team h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#kontact-team img {
+  max-height: 100px;
+}
+
+.adwokat {
+  font-size: 14px;
+  color: #6abcce;
 }
 
 #kontact-image {
@@ -278,6 +313,6 @@ img {
 
 #kontact-side-heading {
   position: absolute;
-  top: 380%;
+  top: 420%;
   left: 13%;
 }
