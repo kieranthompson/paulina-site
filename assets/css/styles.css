@@ -1,7 +1,7 @@
 #strona-block {
   position: absolute;
   top: 0;
-  left: 689px;
+  left: 688px;
   height:400px;
   width:850px;
   background-color:rgb(118,118,118);
@@ -160,6 +160,10 @@ img {
   margin-left: 50%;
 }
 
+#boz-more {
+  cursor: pointer;
+}
+
 #zakres {
   width: 70%;
   margin-left: 20%;
@@ -252,7 +256,7 @@ img {
 }
 
 #kontact-image {
-  height: 298px;
+  height: 297px;
   position: absolute;
   top: 440%;
   left: 24.3%;
