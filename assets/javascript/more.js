@@ -23,6 +23,7 @@ $("#boz-more").click(function(){
     $("#boz-more .more").text("wiecej+")
     $("#boz-text").text("Adw. Bożena Nieciecka – Ostojska od kilkunastu lat wykonuje zawód adwokata specjalizując się w sprawach z zakresu prawa rodzinnego w szerokim tego słowa."
   );
+    $("#boz-more .more").css('margin-top', '25px');
   }
     console.log(isClicked);
   });
