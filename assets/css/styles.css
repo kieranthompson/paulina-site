@@ -22,9 +22,9 @@ p {
 #strona-block {
   position: absolute;
   top: 0;
-  left: 688px;
-  height:400px;
-  width:850px;
+  left: 36.1%;
+  height: 40%;
+  width:44.65%;
   background-color:rgb(118,118,118);
 }
 
@@ -39,8 +39,8 @@ p {
 
 #ok-content {
   position: absolute;
-  top: 400px;
-  left: 465px;
+  top: 45%;
+  left: 24.5%;
   margin-top:5%;
   max-width:57%;
 }
@@ -157,7 +157,8 @@ img {
   margin-bottom: 20%;
 }
 
-.team-title {
+#team-content .col-sm-4 .row img {
+  min-height: 10%;
 }
 
 .team-text {
@@ -193,10 +194,6 @@ img {
 
 }
 
-#zakres #zakres-heading p {
-  z-index: 1;
-}
-
 #zakres h3 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 24px;
@@ -204,17 +201,17 @@ img {
 
 #zakres .first-row {
   width: 250px;
-  margin-left: 2px;
+  margin-left: .2%;
 }
 
 #zakres .middle-row {
-  margin-left: 185px;
+  margin-left: 14.5%;
   width: 240px;
 }
 
 .last-row {
   width: 270px;
-  margin-left: 160px;
+  margin-left: 12.5%;
 }
 
 #zakres-heading {
@@ -227,17 +224,19 @@ img {
 #zakres-heading h2 {
   font-size: 42px;
   font-weight: bold;
+  font-family:'Cormorant Garamond', serif;
+  padding-left: 7.5%;
+}
+
+#zakres-text {
+  margin-left: 7.8%;
+  z-index: 1;
 }
 
 #zakres h3 {
   color: #cfb691;
   font-family: 'Cormorant Garamond', sans-serif;
   font-weight: bold;
-}
-
-
-#zakres-heading p {
-  margin-left: 7.5%;
 }
 
 #zakres-side-heading {
