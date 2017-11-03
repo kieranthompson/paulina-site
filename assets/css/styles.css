@@ -351,6 +351,11 @@ img {
     margin-left: 5%;
   }
 
+  #team-content {
+    margin-top: 100%;
+    margin-left: 30%;
+  }
+
   .vertical-line, #strona-heading {
     visibility: hidden;
   }
