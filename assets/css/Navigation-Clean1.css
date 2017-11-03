@@ -242,11 +242,7 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-transform:rotate(-90deg);
 }
-#strona-heading {
-  position:absolute;
-  top:30%;
-  left:13%;
-}
+
 
 #kancelarii-heading {
   position: absolute;
