@@ -376,6 +376,14 @@ img {
     width: 103px;
   }
 
+  #third-arrow {
+    position: absolute;
+    top: 900%;
+    left: 0;
+    height: 100px;
+    width: 100px;
+  }
+
   #ok-content {
     margin-top: 100%;
     margin-left: 5%;
@@ -391,12 +399,18 @@ img {
   }
 
   #kontact-details {
-    margin-top: 800%;
+    margin-top: 1150%;
   }
 
   #kontact-team {
-    margin-top: 850%;
-    margin-right: 50%;
+    position: absolute;
+    top: 1215%;
+    left: 0;
+    width: 100%;
+  }
+
+  #map {
+    visibility: hidden;
   }
 
   #nav-logo {
