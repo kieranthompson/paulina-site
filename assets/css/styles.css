@@ -11,7 +11,7 @@ br {
   height: 550%;
   position: absolute;
   top: 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 p {
@@ -159,6 +159,7 @@ img {
 }
 
 #team-content {
+  margin-top: 55%;
   max-width: 63.6%;
   margin-left: 24.25%;
   margin-bottom: 20%;
@@ -193,8 +194,7 @@ img {
   width: 70%;
   margin-left: 20%;
   font-family: 'Roboto', sans-serif;
-  z-index: 1;
-}
+ }
 
 #zakres .row {
   margin-left: 4%;
@@ -225,7 +225,6 @@ img {
   text-align: left;
   margin-left: -.5%;
   width: 88%;
-  z-index: 1;
 }
 
 #zakres-heading h2 {
@@ -237,13 +236,13 @@ img {
 
 #zakres-text {
   margin-left: 7.8%;
-  z-index: 1;
 }
 
 #zakres h3 {
   color: #cfb691;
   font-family: 'Cormorant Garamond', sans-serif;
   font-weight: bold;
+  font-size: 28px;
 }
 
 #zakres-side-heading {
@@ -267,6 +266,7 @@ img {
 #map {
   margin-left: 24.3%;
   height: 790px;
+  border: 1px solid black;
 }
 
 #kontact-details {
@@ -274,7 +274,7 @@ img {
   padding-left: 15px;
   position: absolute;
   top: 470%;
-  left: 24.3%;
+  left: 24.35%;
   min-width: 950px;
   height: 25%;
 }
@@ -290,7 +290,7 @@ img {
   background: white;
   position: absolute;
   top: 490%;
-  left: 463px;
+  left: 24.35%;
   padding-left: 10px;
   font-size: 14px;
 }
@@ -324,26 +324,56 @@ img {
 }
 
 @media only screen and (max-width : 768px) {
+
+  p {
+    font-size: 14px;
+  }
+  
   #strona-block {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.02);
-    background-image: url("assets/img/library.jpg") !important;
+    background-image: url("https://www.law.ufl.edu/law/wp-content/uploads/2013/01/library-1.jpg") !important;
+    visibility: hidden;
+  }
+
+  #strona-block-mobile {
+    background-image: url('https://www.law.ufl.edu/law/wp-content/uploads/2013/01/library-1.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
   }
   
   #strona-text {
     position: absolute;
     top: 30%;
-    left: 50%;
-    width: 50%;
-    height: 60%;
+    left: 25%;
+    width: 75%;
+    height: 40%;
   }
 
   #strona-text p {
     font-size: 20px;
+  }
+
+  #first-arrow {
+    height: 105px;
+    width: 103px;
+    position: absolute;
+    top: 54.1%;
+    left:0;
+  }
+
+  #second-arrow {
+    position: absolute;
+    top: 218%;
+    left: 0;
+    height: 105px;
+    width: 103px;
   }
 
   #ok-content {
@@ -352,11 +382,24 @@ img {
   }
 
   #team-content {
-    margin-top: 100%;
-    margin-left: 30%;
+    margin-top: 350%;
+    margin-left: 35%;
   }
 
   .vertical-line, #strona-heading {
     visibility: hidden;
+  }
+
+  #kontact-details {
+    margin-top: 800%;
+  }
+
+  #kontact-team {
+    margin-top: 850%;
+    margin-right: 50%;
+  }
+
+  #nav-logo {
+    margin-right: 50%; 
   }
 }
