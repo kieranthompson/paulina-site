@@ -7,7 +7,7 @@ br {
 .vertical-line {
   background-color: #eeeeee;
   width: 2px;
-  height: 550%;
+  height: 708%;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -277,9 +277,9 @@ img {
   background-color: #f9f9fb;
   padding-left: 15px;
   position: absolute;
-  top: 470%;
-  left: 24.35%;
-  min-width: 950px;
+  top: 625%;
+  left: 26.5%;
+  min-width: 1000px;
   height: 25%;
 }
 
@@ -290,23 +290,24 @@ img {
 }
 
 #kontact-team {
-  max-width: 950px;
+  max-width: 1000px;
+  max-height: 500px;
   background: white;
   position: absolute;
-  top: 490%;
-  left: 24.35%;
+  top: 650%;
+  left: 26.5%;
   padding-left: 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 
 #kontact-team h3 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 #kontact-team img {
-  max-height: 100px;
+  max-height: 75px;
 }
 
 .adwokat {
@@ -323,8 +324,15 @@ img {
 
 #kontact-side-heading {
   position: absolute;
-  top: 420%;
+  top: 650%;
   left: 13%;
+}
+
+#map_id {
+  z-index: 0;
+  margin-left: 450px;
+  height: 1000px;
+  width: 1200px;
 }
 
 @media only screen and (max-width : 768px) {
@@ -410,7 +418,7 @@ img {
     position: absolute;
     top: 1215%;
     left: 0;
-    width: 100%;
+    width: 25%;
   }
 
   #map {
