@@ -15,6 +15,10 @@ p {
   font-family: 'Roboto-light', sans-serif;
 }
 
+#nav-logo {
+  padding-bottom: 10px;
+}
+
 #strona-block {
   position: absolute;
   top: 0;
@@ -83,8 +87,8 @@ p {
 
 #heading-logo {
   position:absolute;
-  top:-50px;
-  left:900px;
+  top:0;
+  left:80%;
   max-height:100px;
 }
 
@@ -167,7 +171,9 @@ img {
 }
 
 #team-content .col-sm-4 .row img {
-  min-height: 10%;
+  width: 80%;
+  max-width: 100%;
+  height: auto;
 }
 
 .team-text {
@@ -328,8 +334,14 @@ img {
 #map_id {
   z-index: 0;
   margin-left: 450px;
-  height: 1000px;
+  height: 600px;
   width: 1200px;
+}
+
+@media only screen and (max-width : 1300) {
+   .last-row {
+     margin-left: 1%;  
+   }
 }
 
 @media only screen and (max-width : 768px) {
