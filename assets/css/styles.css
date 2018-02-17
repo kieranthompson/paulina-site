@@ -11,7 +11,7 @@ br {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Roboto-light', sans-serif;
 }
 
@@ -146,7 +146,7 @@ img {
 }
 
 #third-arrow {
-  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
   height: 100px;
   width: 100px;
   position: absolute;
@@ -155,7 +155,7 @@ img {
 }
 
 #zespol-text {
-  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   position: absolute;
@@ -171,7 +171,7 @@ img {
 }
 
 #team-content .col-sm-4 .row img {
-  width: 80%;
+  width: 60%;
   max-width: 100%;
   height: auto;
 }
@@ -338,11 +338,47 @@ img {
   width: 1200px;
 }
 
-@media only screen and (max-width : 1300) {
-   .last-row {
-     margin-left: 1%;  
-   }
+@media only screen and (max-width : 1400) {
+  
 }
+
+
+/* non retina display 13inch+ */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
+  #zakres .row {
+    margin-left: 4%;
+  }
+
+  .middle-row {
+    margin-right: 50px;
+  }
+}
+
+/* retina display 13inch+ */
+@media screen and (min-device-width: 1100px) and (max-device-width: 2500px) and (-webkit-min-device-pixel-ratio: 2)and (min-resolution: 192dpi) { 
+    #zakres .first-row ul {
+    padding: 5%;
+  }
+
+  #zakres .middle-row {
+    margin: auto;
+    margin-left: 12%;
+
+  }
+
+  #zakres .middle-row ul {
+    padding: 5%;
+  }
+  #zakres .last-row {
+    margin: auto;
+    margin-left: 10%;
+  }
+
+  #fifth-line {
+    left: 59%;
+  }
+}
+
 
 @media only screen and (max-width : 768px) {
 
