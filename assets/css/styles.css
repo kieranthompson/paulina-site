@@ -283,7 +283,7 @@ img {
 #kontact-details {
   background-color: #f9f9fb;
   padding-left: 15px;
-  min-width: 1000px;
+  min-width: 500px;
   height: 25%;
 }
 
@@ -331,19 +331,19 @@ img {
 
 #map_id {
   z-index: 0;
-  margin-left: 450px;
+  margin-left: 463px;
   height: 600px;
-  width: 1200px;
+  width: 1440px;
 }
 
 @media only screen and (max-width : 1400) {
   
 
 /* 4k monitors */
-@media (min-width: 1400px) {
+@media (min-width: 2000px) {
 
   #map_id {
-    width: 1400px;
+    width: 1700px;
   }
 
 }
