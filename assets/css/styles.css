@@ -346,23 +346,6 @@ img {
     width: 1400px;
   }
 
-  #zakres .first-row ul {
-    padding: 5%;
-  }
-
-  #zakres .middle-row {
-    margin: auto;
-    margin-left: 200%;
-
-  }
-
-  #zakres .middle-row ul {
-    padding: 5%;
-  }
-  #zakres .last-row {
-    margin: auto;
-    margin-left: 10%;
-  }
 }
 
 
