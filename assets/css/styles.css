@@ -354,12 +354,27 @@ img {
   p {
     font-size: 10px;
   }
-  #zakres .row {
-    margin-left: 4%;
+  
+  #zakres .first-row ul {
+    padding: 5%;
   }
 
-  .middle-row {
-    margin-right: 50px;
+  #zakres .middle-row {
+    margin: auto;
+    margin-left: 12%;
+
+  }
+
+  #zakres .middle-row ul {
+    padding: 5%;
+  }
+  #zakres .last-row {
+    margin: auto;
+    margin-left: 10%;
+  }
+
+  #fifth-line {
+    left: 59%;
   }
 }
 
