@@ -348,13 +348,8 @@ img {
 
 }
 
-/* 720p display laptop resolution*/
+/* 720p display laptop*/
 @media only screen and (max-width: 1366px) {
-
-  p {
-    font-size: 10px;
-  }
-  
   #zakres .first-row ul {
     padding: 5%;
   }
@@ -508,4 +503,5 @@ img {
   #nav-logo {
     margin-right: 50%; 
   }
+}
 }
